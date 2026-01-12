@@ -3,6 +3,6 @@ resource "aws_instance" "demo" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "terraform-demo-instance"
+    Name = "terraform-test-instance"
   }
 }
